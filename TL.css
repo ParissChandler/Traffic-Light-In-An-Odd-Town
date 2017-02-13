@@ -1,0 +1,78 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+body{
+  background: url(http://4.bp.blogspot.com/_5Yi-Ra13uqc/TOjX3J1MaoI/AAAAAAAAApg/3zNlpn8a5ww/s1600/chinatown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#walkDog{
+  clear: both;
+  margin-left: 811px;
+  margin-top: 198px;
+  position: fixed;
+  text-align: center;
+}
+#walkDog>img{
+  height: 60px;
+  margin-top: 80px;
+}
+#walkGoat>img{
+  height: 120px;
+  margin-left: 280px;
+  margin-top: 90px;
+}
+#main{
+  border: 1px solid #D3D3D3;
+  background-color: black;
+  height: 185px;
+  width: 5%;
+  margin-top: 230px;
+  margin-left: 20px;
+}
+#cOne{
+  border:1px solid black;
+  width: 50px;
+	height: 50px;
+  background-color: red;
+  opacity: 0.4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#cTwo{
+  border:1px solid black;
+  width: 50px;
+	height: 50px;
+  background-color: orange;
+  opacity: 0.4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#cThree{
+  border:1px solid black;
+  width: 50px;
+	height: 50px;
+  background-color: green;
+  opacity: 0.4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#cOne,#cTwo,#cThree{
+  margin-left: 9px;
+  margin-top: 9px;
+}
+#pole{
+  border: 1px solid #D3D3D3;
+  background-color: black;
+  height: 270px;
+  width: 2%;
+  margin-left: 41px;
+  margin-top: -1px;
+  position: fixed;
+  clear: both;
+}
